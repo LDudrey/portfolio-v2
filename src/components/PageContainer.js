@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
-import Portfolio from './pages/Home';
+import Portfolio from './pages/Portfolio';
 import Aboutme from './pages/Aboutme';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
-export default function PortfolioContainer() {
+export default function PageContainer() {
   // Setting the State variable and State management method
   // Setting home as the starting page
   const [currentPage, setCurrentPage] = useState('Aboutme');
