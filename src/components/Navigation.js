@@ -1,20 +1,46 @@
 import React from 'react';
-import '../styles/Navigation.css';
 
-const styles = {
-    background: {
-    },
-   }
-  
 // Navbar
-   function Navigation() {
+   function Navigation({currentPage, handlePageChange}) {
     return (
-      <nav style={styles.navigation} className="navigation">
-        <a href="/">About Me</a>
-        <a href="/">Portfolio</a>
-        <a href="/">Contact</a>
-        <a href="/">Resume</a>
-      </nav>
+        <ul className="nav nav-tabs">
+        <li className="nav-item">
+          <a
+            href="#about Me"
+            onClick={() => handlePageChange('About Me')}
+            className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
+          >
+            About Me
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#portfolio"
+            onClick={() => handlePageChange('Portfolio')}
+            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          >
+            Portfolio
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#contact"
+            onClick={() => handlePageChange('Contact')}
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          >
+            Contact
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#resume"
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
     );
   }
   
