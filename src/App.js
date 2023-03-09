@@ -11,6 +11,8 @@ function App() {
       <Navigation />
       <Header />
       <Project />
+      <Project />
+      <Project />
       <Footer />
     </div>
   );
