@@ -6,9 +6,9 @@ import React from 'react';
         <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
-            href="#about Me"
-            onClick={() => handlePageChange('About Me')}
-            className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
+            href="#about"
+            onClick={() => handlePageChange('About')}
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
           >
             About Me
           </a>
