@@ -2,8 +2,10 @@ import React from 'react';
 
 export default function Header() {
     return (
-        <div>
-           <h1 className="">Hello world!</h1>
+        <div className='bg-dark'>
+           <span>
+            <img className= "w-25" alt ="cartoonized profile" src="images/avataaars.png"></img>
+           </span>
         </div>
     )
 }

@@ -1,9 +1,14 @@
 import React from 'react';
+import Header from "./Header"
+import Footer from "./Footer"
 
 // Navbar
    function Navigation({currentPage, handlePageChange}) {
     return (
-        <ul className="nav nav-tabs">
+      <div id='side-wrapper'>
+        <Header />
+      <nav className="nav container-fluid flex-column bg-dark">
+        <ul>
         <li className="nav-item">
           <a
             href="#about"
@@ -41,6 +46,11 @@ import React from 'react';
           </a>
         </li>
       </ul>
+      </nav>
+      <div>
+        <Footer />
+      </div>
+      </div>
     );
   }
   

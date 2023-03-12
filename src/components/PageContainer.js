@@ -27,7 +27,7 @@ export default function PageContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div id="pagecont-navigation">
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
