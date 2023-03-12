@@ -12,6 +12,20 @@ body {
 
 h1 {
   margin: 32px 0;
-  color: #fff;
+  color: #000;
   font-size: 24px;
 }
+
+/*Page break sizes*/
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 576px) {
+.container {
+    max-width: 540px;
+} 
+}
+

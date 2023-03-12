@@ -6,7 +6,7 @@ import "./styles/App.css"
 
 function App() {
   return (
-    <div id="main-container">
+    <div id="Appcontain" className="d-flex row vh-100">
       <PageContainer />
       <Footer />
     </div>

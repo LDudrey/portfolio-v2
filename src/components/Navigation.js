@@ -4,7 +4,7 @@ import Header from "./Header"
 // Navbar
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <div id='side-wrapper' className='col'>
+    <div id='side-wrapper' className='col vh-90'>
       <Header />
       <nav className="nav container-fluid flex-column bg-dark">
         <ul>
@@ -46,7 +46,7 @@ function Navigation({ currentPage, handlePageChange }) {
           </li>
         </ul>
       </nav>
-    </div>
+      </div>
   );
 }
 
