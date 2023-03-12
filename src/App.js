@@ -1,8 +1,7 @@
 import React from "react";
-import './styles/App.css';
+import Header from "./components/Header"
 import PageContainer from "./components/PageContainer"
-import Header from "./components/elements/Header"
-import Footer from "./components/elements/Footer"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -13,7 +12,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;
