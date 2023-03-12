@@ -5,7 +5,7 @@ import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-
 
 export default function Footer() {
     return (
-        <div id="footer" className='bg-dark'>
+        <div id="footer" className='d-flex justify-content-center bg-dark'>
             <footer>
             <a className="mx-3" href="https://github.com/LDudrey"><FontAwesomeIcon icon={faGithub} size="3x"/></a>
             <a className="mx-3" href="https://www.linkedin.com/in/lydiadudrey/"><FontAwesomeIcon icon={faLinkedin} size="3x" /></a>
