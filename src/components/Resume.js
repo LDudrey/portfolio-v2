@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div id="resume">
+    <div id="resume" className='col'>
       <h1>Resume</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
