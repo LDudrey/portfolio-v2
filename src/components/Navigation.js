@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "./Header"
+import Header from "./elements/Header"
 
 // Navbar
 function Navigation({ currentPage, handlePageChange }) {

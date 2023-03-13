@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
-import Portfolio from './Portfolio';
-import About from './About';
-import Resume from './Resume';
-import Contact from './Contact';
+import Portfolio from './pages/Portfolio';
+import About from './pages/About';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 export default function PageContainer() {
   // Setting the State variable and State management method
