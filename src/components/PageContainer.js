@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from './elements/Footer'
 import Navigation from './Navigation';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
@@ -30,6 +31,7 @@ export default function PageContainer() {
     <div id="pagecontainer" className='row p-0'>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
   }
