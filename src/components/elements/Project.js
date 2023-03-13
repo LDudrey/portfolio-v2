@@ -6,13 +6,13 @@ export default function ProjectCard(props) {
             {props.projects.map((item) => {
                 return (
                     <div className="card" key={item.id}>
-                        <img src="{props.link}" className="card-img-top" alt="{props.alt}"></img>
+                        <img src={item.image} className="card-img-top" alt={item.alt}></img>
                         <div className="card-body">
-                            <h5 className="card-title">{props.name}</h5>
-                            <p className="card-text">{props.description}</p>
+                            <h5 className="card-title">{item.name}</h5>
+                            <p className="card-text">{item.description}</p>
                         </div>
                         <div className="card-body">
-                            <a href="{props.link}" className="card-link">Card link</a>
+                            <a href={item.link} className="card-link">Card link</a>
                         </div>
                     </div>
                 )}

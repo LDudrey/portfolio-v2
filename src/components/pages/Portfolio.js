@@ -4,11 +4,11 @@ import Project from '../elements/Project';
 const projects = [
   {
     id: 1,
-    image: "",
+    image: "images/NationalParkLocator.png",
     name: "National Park Locator",
-    alt: "",
+    alt: "screenshot",
     description: "",
-    link: "",
+    link: "https://hmustain.github.io/National-Park-Locator/",
   },
   {
     id: 2,
