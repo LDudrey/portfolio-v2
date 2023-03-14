@@ -5,7 +5,7 @@ import "./styles/App.css"
 
 function App() {
   return (
-    <div id="Appcontain" className="d-flex row vh-100">
+    <div id="Appcontain" className="d-flex">
       <PageContainer />
     </div>
   );
