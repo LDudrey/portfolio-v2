@@ -4,13 +4,13 @@ import Header from "./elements/Header"
 // Navbar
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <header id='header-nav' className='col'>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className='container-fluid position-relative flex-lg-column vh-100'>
+    <header id='header-nav' className='col bg-dark'>
+      <nav className="navbar navbar-expand-lg navbar-dark vh-100">
+        <div className='container-fluid flex-lg-column'>
         <Header />
         <div className='collapse navbar-collapse'>
           <ul className='navbar-nav flex-column'>
-            <li className="nav-item">
+            <li className="nav-item m-2">
               <a
                 href="#about"
                 onClick={() => handlePageChange('About')}
@@ -19,7 +19,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 About Me
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item m-2">
               <a
                 href="#portfolio"
                 onClick={() => handlePageChange('Portfolio')}
@@ -28,7 +28,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 Portfolio
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item m-2">
               <a
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
@@ -37,7 +37,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 Contact
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item m-2">
               <a
                 href="#resume"
                 onClick={() => handlePageChange('Resume')}
