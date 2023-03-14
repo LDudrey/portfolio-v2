@@ -8,7 +8,7 @@ function Navigation({ currentPage, handlePageChange }) {
       <nav className="navbar navbar-expand-lg navbar-dark vh-100">
         <div className='container-fluid flex-lg-column'>
         <Header />
-        <div className='collapse navbar-collapse'>
+        <div className='collapse navbar-collapse' id="navbarContent">
           <ul className='navbar-nav flex-column'>
             <li className="nav-item m-2">
               <a

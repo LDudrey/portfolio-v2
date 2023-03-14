@@ -37,6 +37,9 @@ label {
   text-align: center;
 }
 
+#description {
+  color: #000;
+}
 /*Page break sizes*/
 @media (min-width: 768px) {
 .container {

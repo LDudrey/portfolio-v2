@@ -2,7 +2,8 @@ import React from 'react';
 import Project from '../elements/Project';
 import parkimg from '../../assets/images/NationalParkLocator.png'
 import yggimg from '../../assets/images/Yougoalgirl.png'
-
+import crafter from '../../assets/images/crafterapi.png'
+import cyber from '../../assets/images/cyberapi.png'
 
 const projects = [
   {
@@ -10,7 +11,8 @@ const projects = [
     image: parkimg,
     name: "National Park Locator",
     alt: "screenshot",
-    description: "",
+    description: "Team project demonstrating experience with Server Side APIs from Mapbox and National Parks.",
+    repo: "https://github.com/LDudrey/National-Park-Locator-v2",
     link: "https://hmustain.github.io/National-Park-Locator/",
   },
   {
@@ -18,24 +20,27 @@ const projects = [
     image: yggimg,
     name: "You Go Girl",
     alt: "screenshot",
-    description: "",
+    description: "Team goal-tracker app using MVC paradigm with RESTful API's and MySQL database",
+    repo: "https://github.com/LDudrey/you-goal-girl-v2",
     link: "https://clj-yougoalgirl.herokuapp.com/",
   },
   {
     id: 3,
-    image: "",
+    image: cyber,
     name: "Cyber-Retail API",
-    alt: "",
-    description: "",
-    link: "",
+    alt: "screenshot",
+    description: "ORM example of an E-Commerce back end using Express.js API, Sequelize and MySQL database.",
+    repo: "https://github.com/LDudrey/Cyber-Retail-BackEnd",
+    link: "https://github.com/LDudrey/Cyber-Retail-BackEnd",
   },
   {
     id: 4,
-    image: "",
-    name: "NoSQL",
-    alt: "",
-    description: "",
-    link: "",
+    image: crafter,
+    name: "Crafter Community API",
+    alt: "screenshot",
+    description: "A social network app demostrating use of NoSQL database MongoDB.",
+    repo: "https://github.com/LDudrey/Crafters-Community-API",
+    link: "https://github.com/LDudrey/Crafters-Community-API",
   },
   {
     id: 5,
@@ -43,15 +48,17 @@ const projects = [
     name: "NoSQL",
     alt: "",
     description: "",
+    repo: "",
     link: "",
   },
   {
     id: 6,
     image: "",
-    name: "NoSQL",
-    alt: "",
-    description: "",
-    link: "",
+    name: "Equitable Split Calculator",
+    alt: "screenshot",
+    description: "In-progress application using React.js and Node.js.",
+    repo: "https://github.com/LDudrey/Equitable-Split-Calculator",
+    link: "https://github.com/LDudrey/Equitable-Split-Calculator",
   },
 ];
 
