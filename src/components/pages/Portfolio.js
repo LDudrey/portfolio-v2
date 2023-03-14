@@ -1,10 +1,13 @@
 import React from 'react';
 import Project from '../elements/Project';
+import parkimg from '../../assets/images/NationalParkLocator.png'
+import yggimg from '../../assets/images/Yougoalgirl.png'
+
 
 const projects = [
   {
     id: 1,
-    image: "images/NationalParkLocator.png",
+    image: parkimg,
     name: "National Park Locator",
     alt: "screenshot",
     description: "",
@@ -12,11 +15,11 @@ const projects = [
   },
   {
     id: 2,
-    image: "",
+    image: yggimg,
     name: "You Go Girl",
-    alt: "",
+    alt: "screenshot",
     description: "",
-    link: "",
+    link: "https://clj-yougoalgirl.herokuapp.com/",
   },
   {
     id: 3,
@@ -54,7 +57,7 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div id="portfolio" className='col'>
+    <div id="portfolio" className='col bg-dark'>
       <h1>Portfolio</h1>
       <Project projects={projects} />
     </div>
