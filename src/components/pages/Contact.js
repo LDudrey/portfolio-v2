@@ -47,30 +47,42 @@ function Form() {
   };
 
   return (
-    <div id="contact" className='col'>
+    <div id="contact" className='col vw-100 bg-dark'>
       <h1>Contact Me</h1>
       <form className="form">
+        <div className="mb-3">
+        <label class="form-label mx-2">Email address: </label>
         <input
+          className='form-control'
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder=""
         />
+        </div>
+        <div className="mb-3">
+        <label class="form-label mx-2">Name: </label>
         <input
+          className='form-control'
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
-          placeholder="name"
+          placeholder=""
         />
+        </div>
+        <div className="mb-3">
+        <label class="form-label mx-2">Message: </label>
         <input
+          className='form-control'
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
-          placeholder="message"
+          placeholder=""
         />
+        </div>
         <button type="button" onClick={handleFormSubmit}>
           Submit
         </button>
