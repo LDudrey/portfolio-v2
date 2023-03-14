@@ -11,9 +11,30 @@ body {
 }
 
 h1 {
-  margin: 32px 0;
-  color: #000;
+  color: #fff;
   font-size: 24px;
+}
+
+p {
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
+.card-title {
+  color: #000;
+  text-align: center;
+}
+
+#profile {
+  border-radius: 8px;
+  height: 10em;
+}
+
+#pagecontainer {
+  text-align: center;
 }
 
 /*Page break sizes*/
