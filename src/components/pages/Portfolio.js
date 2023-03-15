@@ -4,6 +4,8 @@ import parkimg from '../../assets/images/NationalParkLocator.png'
 import yggimg from '../../assets/images/Yougoalgirl.png'
 import crafter from '../../assets/images/crafterapi.png'
 import cyber from '../../assets/images/cyberapi.png'
+import lite from '../../assets/images/installed.jpg'
+import soon from '../../assets/images/pexels-alleksana-4271927.jpg'
 
 const projects = [
   {
@@ -44,16 +46,16 @@ const projects = [
   },
   {
     id: 5,
-    image: "",
-    name: "NoSQL",
-    alt: "",
-    description: "",
-    repo: "",
-    link: "",
+    image: lite,
+    name: "L.I.T.E",
+    alt: "screenshot",
+    description: "A Javascript text editor app that demonstrates a Progressive Web Application that is downloadable.",
+    repo: "https://github.com/LDudrey/L.I.T.E",
+    link: "https://lite-lad.herokuapp.com/",
   },
   {
     id: 6,
-    image: "",
+    image: soon,
     name: "Equitable Split Calculator",
     alt: "screenshot",
     description: "In-progress application using React.js and Node.js.",
