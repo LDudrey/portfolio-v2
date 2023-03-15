@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio-v2/static/css/main.46c70dca.css",
-    "main.js": "/Portfolio-v2/static/js/main.c4d54812.js",
-    "static/media/pexels-alleksana-4271927.jpg": "/Portfolio-v2/static/media/pexels-alleksana-4271927.5d3caa54e824a6184909.jpg",
-    "static/media/NationalParkLocator.png": "/Portfolio-v2/static/media/NationalParkLocator.9865b3f29f6021a7090d.png",
-    "static/media/cyberapi.png": "/Portfolio-v2/static/media/cyberapi.1a3510e1036c72db0a50.png",
-    "static/media/Yougoalgirl.png": "/Portfolio-v2/static/media/Yougoalgirl.2695ceffd967e0560c95.png",
-    "static/media/crafterapi.png": "/Portfolio-v2/static/media/crafterapi.9f2f2e7615aff95d5d9b.png",
-    "static/media/avataaars.png": "/Portfolio-v2/static/media/avataaars.60cbf5aa85221845f08c.png",
-    "static/media/installed.jpg": "/Portfolio-v2/static/media/installed.2069b5a9634647f28c39.jpg",
-    "index.html": "/Portfolio-v2/index.html",
-    "static/media/LydiaDudreyResume.pdf": "/Portfolio-v2/static/media/LydiaDudreyResume.31d6cfe0d16ae931b73c.pdf",
-    "main.46c70dca.css.map": "/Portfolio-v2/static/css/main.46c70dca.css.map",
-    "main.c4d54812.js.map": "/Portfolio-v2/static/js/main.c4d54812.js.map"
+    "main.css": "/portfolio-v2/static/css/main.46c70dca.css",
+    "main.js": "/portfolio-v2/static/js/main.578b80ef.js",
+    "static/media/pexels-alleksana-4271927.jpg": "/portfolio-v2/static/media/pexels-alleksana-4271927.5d3caa54e824a6184909.jpg",
+    "static/media/NationalParkLocator.png": "/portfolio-v2/static/media/NationalParkLocator.9865b3f29f6021a7090d.png",
+    "static/media/cyberapi.png": "/portfolio-v2/static/media/cyberapi.1a3510e1036c72db0a50.png",
+    "static/media/Yougoalgirl.png": "/portfolio-v2/static/media/Yougoalgirl.2695ceffd967e0560c95.png",
+    "static/media/crafterapi.png": "/portfolio-v2/static/media/crafterapi.9f2f2e7615aff95d5d9b.png",
+    "static/media/avataaars.png": "/portfolio-v2/static/media/avataaars.60cbf5aa85221845f08c.png",
+    "static/media/installed.jpg": "/portfolio-v2/static/media/installed.2069b5a9634647f28c39.jpg",
+    "index.html": "/portfolio-v2/index.html",
+    "static/media/LydiaDudreyResume.pdf": "/portfolio-v2/static/media/LydiaDudreyResume.31d6cfe0d16ae931b73c.pdf",
+    "main.46c70dca.css.map": "/portfolio-v2/static/css/main.46c70dca.css.map",
+    "main.578b80ef.js.map": "/portfolio-v2/static/js/main.578b80ef.js.map"
   },
   "entrypoints": [
     "static/css/main.46c70dca.css",
-    "static/js/main.c4d54812.js"
+    "static/js/main.578b80ef.js"
   ]
 }
