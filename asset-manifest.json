@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio-v2/static/css/main.cfc18260.css",
-    "main.js": "/portfolio-v2/static/js/main.882a71a4.js",
+    "main.js": "/portfolio-v2/static/js/main.d1740934.js",
     "static/media/pexels-alleksana-4271927.jpg": "/portfolio-v2/static/media/pexels-alleksana-4271927.5d3caa54e824a6184909.jpg",
     "static/media/NationalParkLocator.png": "/portfolio-v2/static/media/NationalParkLocator.9865b3f29f6021a7090d.png",
-    "static/media/pdf.worker.js": "/portfolio-v2/static/media/pdf.worker.c5d6adc011bb8a04d17f.js",
+    "pdf.worker.js": "/portfolio-v2/2e23a7ca80ec9438ccbe7e582fb226cc.js",
     "static/media/cyberapi.png": "/portfolio-v2/static/media/cyberapi.1a3510e1036c72db0a50.png",
     "static/media/Yougoalgirl.png": "/portfolio-v2/static/media/Yougoalgirl.2695ceffd967e0560c95.png",
     "static/media/crafterapi.png": "/portfolio-v2/static/media/crafterapi.9f2f2e7615aff95d5d9b.png",
@@ -13,10 +13,10 @@
     "static/media/installed.jpg": "/portfolio-v2/static/media/installed.2069b5a9634647f28c39.jpg",
     "index.html": "/portfolio-v2/index.html",
     "main.cfc18260.css.map": "/portfolio-v2/static/css/main.cfc18260.css.map",
-    "main.882a71a4.js.map": "/portfolio-v2/static/js/main.882a71a4.js.map"
+    "main.d1740934.js.map": "/portfolio-v2/static/js/main.d1740934.js.map"
   },
   "entrypoints": [
     "static/css/main.cfc18260.css",
-    "static/js/main.882a71a4.js"
+    "static/js/main.d1740934.js"
   ]
 }
