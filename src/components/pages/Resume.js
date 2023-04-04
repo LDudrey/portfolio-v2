@@ -1,9 +1,10 @@
 import React from 'react';
 import pdfFile from './Lydias_Full_Stack_Resume.pdf'
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
-
+const url = `//cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`
+pdfjs.GlobalWorkerOptions.workerSrc = url
 
 export default function Resume() {
   const onButtonClick = () => {

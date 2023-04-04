@@ -5,7 +5,7 @@ import yggimg from '../../assets/images/Yougoalgirl.png'
 import crafter from '../../assets/images/crafterapi.png'
 import cyber from '../../assets/images/cyberapi.png'
 import lite from '../../assets/images/installed.jpg'
-import soon from '../../assets/images/pexels-alleksana-4271927.jpg'
+import bexar from '../../assets/images/bexarmarketscreenshot.png'
 
 const projects = [
   {
@@ -55,12 +55,12 @@ const projects = [
   },
   {
     id: 6,
-    image: soon,
-    name: "Equitable Split Calculator",
+    image: bexar,
+    name: "Bexar-Market",
     alt: "screenshot",
-    description: "In-progress application using React.js and Node.js.",
-    repo: "https://github.com/LDudrey/Equitable-Split-Calculator",
-    link: "https://github.com/LDudrey/Equitable-Split-Calculator",
+    description: "A e-commerce app demostrating a full MERN stack.",
+    repo: "https://github.com/jessicashong/bexar-market",
+    link: "https://bexar-market.herokuapp.com/",
   },
 ];
 
